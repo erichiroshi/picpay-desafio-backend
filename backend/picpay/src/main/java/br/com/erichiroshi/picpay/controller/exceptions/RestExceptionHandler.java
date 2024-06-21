@@ -31,7 +31,7 @@ public class RestExceptionHandler {
 		pb.setTitle("Your request parameters didn't validate.");
 		pb.setProperty("invalid-params", fieldErros);
 
-		return null;
+		return pb;
 	}
 
 	private record InvalidParam(String name, String reason) {
