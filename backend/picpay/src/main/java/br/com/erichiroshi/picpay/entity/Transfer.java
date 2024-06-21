@@ -39,4 +39,10 @@ public class Transfer {
 	@Column(name = "amount")
 	private BigDecimal amount;
 
+	public Transfer(Wallet sender, Wallet receiver, BigDecimal amount) {
+		this.sender = sender;
+		this.receiver = receiver;
+		this.amount = amount;
+	}
+
 }

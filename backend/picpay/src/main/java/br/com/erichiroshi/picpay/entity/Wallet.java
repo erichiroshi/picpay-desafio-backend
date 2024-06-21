@@ -53,7 +53,20 @@ public class Wallet {
 		this.password = password;
 		this.walletType = walletType;
 	}
-	
-	
 
+	public void debit(BigDecimal value) {
+		this.balance = this.balance.subtract(value);
+	}
+
+	public void credit(BigDecimal value) {
+		this.balance = this.balance.add(value);
+	}
+
+	public boolean isTransferAllowedForWalletType() {
+		return this.walletType.equals(WalletType.Enum.USER.get());
+	}
+
+	public boolean isBalancerEqualOrGreatherThan(BigDecimal value) {
+		return this.balance.doubleValue() >= value.doubleValue();
+	}
 }
