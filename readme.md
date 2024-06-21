@@ -37,7 +37,7 @@ Resolução do desafio proposto pelo repositorio Picpay, confira detalhes [neste
 
 O banco já com dois dados na tabela  tb_wallet_type:
 
-![image](imagens\banco-dados-01.png)
+![banco-dados-01](imagens/banco-dados-01.png)
 
 
 ## Como interagir com a API?
@@ -86,14 +86,14 @@ Projeto desenvolvido seguindo o canal [Build & Run](https://www.youtube.com/watc
 ## Exemplos
 
 ### 1 - POST /wallets
-![alt text](imagens\postman-01.png)
+![postman-01](imagens/postman-01.png)
 
 e como resposta:
 
-![alt text](imagens\postman-02.png)
+![postman-02](imagens/postman-02.png)
 
 ### 2 - POST /transfer
 
-![alt text](imagens\postman-03.png)
+![postman-03](imagens/postman-03.png)
 
 ## Developed by Eric Hiroshi
